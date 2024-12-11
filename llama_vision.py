@@ -101,13 +101,8 @@ async def process_receipt(file: UploadFile = File(...)):
     """
 
     try:
-        # System prompt
-        # system_prompt = """
-        #     You are a specialist in comprehending receipts. Input images in the form of receipts will be provided to you,
-        #     and your task is to respond to questions based on the content of the input image. Your primary task is to
-        #     convert the invoice data into JSON format, extracting all relevant details from the receipt with appropriate JSON tags.
-        #     Provide only the transcription without any additional comments.
-        # """
+
+        
 
         # Check file type and process accordingly
         if file.filename.endswith(".pdf"):
