@@ -3,3 +3,6 @@ google-generativeai
 python-dotenv
 uvicorn
 pdf2image
+ollama
+pathlib
+
