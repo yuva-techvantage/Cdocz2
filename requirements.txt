@@ -1,0 +1,5 @@
+fastapi
+google-generativeai
+python-dotenv
+uvicorn
+pdf2image
